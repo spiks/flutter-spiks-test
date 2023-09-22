@@ -1,0 +1,1 @@
+typedef LastPageWidgetInfo = String Function(int resultCount);
