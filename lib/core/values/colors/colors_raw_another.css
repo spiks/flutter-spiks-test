@@ -1,0 +1,470 @@
+/*text style*/
+h1-displaylarge {
+  font-size: 48px;
+  font-family: SF Pro Display;
+  font-weight: 700;
+}
+h2-displaymedium {
+  font-size: 36px;
+  font-family: SF Pro Display;
+  font-weight: 700;
+}
+h3-displaysmall {
+  font-size: 32px;
+  font-family: SF Pro Display;
+  font-weight: 700;
+}
+h4-headlinemedium {
+  font-size: 24px;
+  font-family: Raleway;
+  font-weight: 700;
+}
+h5-headlinesmall {
+  font-size: 20px;
+  font-family: Raleway;
+  font-weight: 700;
+}
+h6-titlelarge {
+  font-size: 18px;
+  font-family: SF Pro Display;
+  font-weight: 700;
+}
+subtitle-titlemedium {
+  font-size: 16px;
+  font-family: Raleway;
+  font-weight: 600;
+}
+body-bodysmall {
+  font-size: 14px;
+  font-family: SF Pro Display;
+  font-weight: 400;
+}
+body-bodylarge-basic {
+  font-size: 18px;
+  font-family: Raleway;
+  font-weight: 500;
+}
+body-bodylarge-italic {
+  font-size: 18px;
+  font-family: Raleway;
+  font-weight: 500;
+  font-style: italic;
+
+
+}
+body-bodylarge-strikethrough {
+  font-size: 18px;
+  text-decoration: line-through;
+  font-family: Raleway;
+  font-weight: 500;
+
+
+}
+body-bodylarge-underline {
+  font-size: 18px;
+  font-family: Raleway;
+  font-weight: 500;
+
+
+}
+body-bodymedium-basic {
+  font-size: 16px;
+  font-family: Raleway;
+  font-weight: 500;
+
+
+}
+body-bodymedium-underline {
+  font-size: 16px;
+  font-family: Raleway;
+  font-weight: 500;
+
+
+}
+button-labellarge {
+  font-size: 18px;
+  font-family: SF Pro Display;
+  font-weight: 500;
+
+
+}
+button-labelmedium {
+  font-size: 16px;
+  font-family: SF Pro Display;
+  font-weight: 500;
+
+
+}
+button-labelsmall {
+  font-size: 12px;
+  font-family: SF Pro Display;
+  font-weight: 500;
+
+
+}
+button-labelsmall_regular {
+  font-size: 12px;
+  font-family: SF Pro Display;
+  font-weight: 400;
+
+
+}
+material-theme-display-large {
+  font-size: 57px;
+  font-family: Roboto;
+  font-weight: 400;
+
+
+}
+material-theme-display-medium {
+  font-size: 45px;
+  font-family: Roboto;
+  font-weight: 400;
+
+
+}
+material-theme-display-small {
+  font-size: 36px;
+  font-family: Roboto;
+  font-weight: 400;
+
+
+}
+material-theme-headline-large {
+  font-size: 32px;
+  font-family: Roboto;
+  font-weight: 400;
+
+
+}
+material-theme-headline-medium {
+  font-size: 28px;
+  font-family: Roboto;
+  font-weight: 400;
+
+
+}
+material-theme-headline-small {
+  font-size: 24px;
+  font-family: Roboto;
+  font-weight: 400;
+
+
+}
+material-theme-title-large {
+  font-size: 22px;
+  font-family: Roboto;
+  font-weight: 400;
+
+
+}
+material-theme-title-medium {
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+
+
+}
+material-theme-title-small {
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+
+
+}
+material-theme-body-large {
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+
+
+}
+material-theme-body-medium {
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+
+
+}
+material-theme-body-small {
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: 400;
+
+
+}
+material-theme-label-large {
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+
+
+}
+material-theme-label-medium {
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: 500;
+
+
+}
+material-theme-label-small {
+  font-size: 11px;
+  font-family: Roboto;
+  font-weight: 500;
+
+
+}
+
+
+/*paint style*/
+
+$neutral-900: rgba(25, 25, 25, 1);
+$neutral-800: rgba(51, 51, 51, 1);
+$neutral-700: rgba(89, 89, 89, 1);
+$neutral-500: rgba(127, 127, 127, 1);
+$neutral-200: rgba(204, 204, 204, 1);
+$neutral-100: rgba(230, 230, 230, 1);
+$neutral-000: rgba(255, 255, 255, 1);
+$light-error: rgba(255, 69, 69, 1);
+$light-accent: rgba(255, 46, 123, 1);
+$light-secondary: rgba(101, 247, 228, 1);
+$light-tertiary: rgba(31, 102, 142, 1);
+$light-primary-500: rgba(56, 183, 255, 1);
+$light-primary-400: rgba(96, 197, 255, 1);
+$light-primary-300: rgba(173, 225, 255, 1);
+$light-primary-200: rgba(214, 240, 255, 1);
+$light-primary-100: rgba(235, 248, 255, 1);
+$light-gradient-background: support only solid color;
+$light-gradient-red: support only solid color;
+$light---gradient---orange: support only solid color;
+$light---gradient---green: support only solid color;
+$gradient-primary-1: support only solid color;
+$gradient-primary-2: support only solid color;
+$gradient-primary-3: support only solid color;
+$gradient-accent-1: support only solid color;
+$gradient---accent---2: support only solid color;
+$opacity-neutral-000-0.88: rgba(255, 255, 255, 0.88);
+$opacity-neutral-000-0.60: rgba(255, 255, 255, 0.6);
+$opacity-neutral-000-0.20: rgba(255, 255, 255, 0.2);
+$opacity-neutral-900-0.20: rgba(25, 25, 25, 0.2);
+$opacity-neutral-900-0.40: rgba(25, 25, 25, 0.4);
+$opacity-neutral-900-0.10: rgba(25, 25, 25, 0.1);
+$opacity-tertiary-0.20: rgba(31, 102, 142, 0.2);
+$opacity---tertiary--0.40: rgba(31, 102, 142, 0.4);
+$material-theme-white: rgba(255, 255, 255, 1);
+$material-theme-black: rgba(0, 0, 0, 1);
+$material-theme-sys-light-primary: rgba(56, 183, 255, 1);
+$material-theme-sys-light-on-primary: rgba(255, 255, 255, 1);
+$material-theme-sys-light-primary-container: rgba(201, 230, 255, 0.3);
+$material-theme-sys-light-on-primary-container: rgba(0, 30, 47, 1);
+$material-theme-sys-light-secondary: rgba(0, 106, 96, 1);
+$material-theme-sys-light-on-secondary: rgba(255, 255, 255, 1);
+$material-theme-sys-light-secondary-container: rgba(103, 249, 230, 1);
+$material-theme-sys-light-on-secondary-container: rgba(0, 32, 28, 1);
+$material-theme-sys-light-tertiary: rgba(0, 100, 146, 1);
+$material-theme-sys-light-on-tertiary: rgba(255, 255, 255, 1);
+$material-theme-sys-light-tertiary-container: rgba(201, 230, 255, 1);
+$material-theme-sys-light-on-tertiary-container: rgba(0, 30, 47, 1);
+$material-theme-sys-light-error: rgba(186, 26, 26, 1);
+$material-theme-sys-light-on-error: rgba(255, 255, 255, 1);
+$material-theme-sys-light-error-container: rgba(255, 218, 214, 1);
+$material-theme-sys-light-on-error-container: rgba(65, 0, 2, 1);
+$material-theme-sys-light-outline: rgba(114, 120, 126, 1);
+$material-theme-sys-light-background: rgba(252, 252, 255, 1);
+$material-theme-sys-light-on-background: rgba(26, 28, 30, 1);
+$material-theme-sys-light-surface: rgba(252, 252, 255, 1);
+$material-theme-sys-light-on-surface: rgba(26, 28, 30, 1);
+$material-theme-sys-light-surface-variant: rgba(221, 227, 234, 1);
+$material-theme-sys-light-on-surface-variant: rgba(65, 71, 77, 1);
+$material-theme-sys-light-inverse-surface: rgba(46, 49, 51, 1);
+$material-theme-sys-light-inverse-on-surface: rgba(240, 240, 243, 1);
+$material-theme-sys-light-inverse-primary: rgba(139, 206, 255, 1);
+$material-theme-sys-light-shadow: rgba(0, 0, 0, 1);
+$material-theme-sys-light-surface-tint: rgba(0, 100, 146, 1);
+$material-theme-sys-light-outline-variant: rgba(193, 199, 206, 1);
+$material-theme-sys-light-scrim: rgba(0, 0, 0, 1);
+$material-theme-sys-dark-primary: rgba(139, 206, 255, 1);
+$material-theme-sys-dark-on-primary: rgba(0, 52, 78, 1);
+$material-theme-sys-dark-primary-container: rgba(0, 75, 111, 1);
+$material-theme-sys-dark-on-primary-container: rgba(201, 230, 255, 1);
+$material-theme-sys-dark-secondary: rgba(67, 220, 202, 1);
+$material-theme-sys-dark-on-secondary: rgba(0, 55, 49, 1);
+$material-theme-sys-dark-secondary-container: rgba(0, 80, 72, 1);
+$material-theme-sys-dark-on-secondary-container: rgba(103, 249, 230, 1);
+$material-theme-sys-dark-tertiary: rgba(139, 206, 255, 1);
+$material-theme-sys-dark-on-tertiary: rgba(0, 52, 78, 1);
+$material-theme-sys-dark-tertiary-container: rgba(0, 75, 111, 1);
+$material-theme-sys-dark-on-tertiary-container: rgba(201, 230, 255, 1);
+$material-theme-sys-dark-error: rgba(255, 180, 171, 1);
+$material-theme-sys-dark-on-error: rgba(105, 0, 5, 1);
+$material-theme-sys-dark-error-container: rgba(147, 0, 10, 1);
+$material-theme-sys-dark-on-error-container: rgba(255, 218, 214, 1);
+$material-theme-sys-dark-outline: rgba(139, 145, 152, 1);
+$material-theme-sys-dark-background: rgba(26, 28, 30, 1);
+$material-theme-sys-dark-on-background: rgba(226, 226, 229, 1);
+$material-theme-sys-dark-surface: rgba(26, 28, 30, 1);
+$material-theme-sys-dark-on-surface: rgba(197, 198, 201, 1);
+$material-theme-sys-dark-surface-variant: rgba(65, 71, 77, 1);
+$material-theme-sys-dark-on-surface-variant: rgba(193, 199, 206, 1);
+$material-theme-sys-dark-inverse-surface: rgba(226, 226, 229, 1);
+$material-theme-sys-dark-inverse-on-surface: rgba(26, 28, 30, 1);
+$material-theme-sys-dark-inverse-primary: rgba(0, 100, 146, 1);
+$material-theme-sys-dark-shadow: rgba(0, 0, 0, 1);
+$material-theme-sys-dark-surface-tint: rgba(139, 206, 255, 1);
+$material-theme-sys-dark-outline-variant: rgba(65, 71, 77, 1);
+$material-theme-sys-dark-scrim: rgba(0, 0, 0, 1);
+$material-theme-ref-primary-primary0: rgba(0, 0, 0, 1);
+$material-theme-ref-primary-primary10: rgba(0, 30, 47, 1);
+$material-theme-ref-primary-primary20: rgba(0, 52, 78, 1);
+$material-theme-ref-primary-primary30: rgba(0, 75, 111, 1);
+$material-theme-ref-primary-primary40: rgba(0, 100, 146, 1);
+$material-theme-ref-primary-primary50: rgba(0, 126, 183, 1);
+$material-theme-ref-primary-primary60: rgba(0, 153, 221, 1);
+$material-theme-ref-primary-primary70: rgba(52, 181, 253, 1);
+$material-theme-ref-primary-primary80: rgba(139, 206, 255, 1);
+$material-theme-ref-primary-primary90: rgba(201, 230, 255, 1);
+$material-theme-ref-primary-primary95: rgba(230, 242, 255, 1);
+$material-theme-ref-primary-primary99: rgba(252, 252, 255, 1);
+$material-theme-ref-primary-primary100: rgba(255, 255, 255, 1);
+$material-theme-ref-primary-primary5: rgba(0, 19, 32, 1);
+$material-theme-ref-primary-primary25: rgba(0, 63, 94, 1);
+$material-theme-ref-primary-primary35: rgba(0, 88, 128, 1);
+$material-theme-ref-primary-primary98: rgba(246, 250, 255, 1);
+$material-theme-ref-secondary-secondary0: rgba(0, 0, 0, 1);
+$material-theme-ref-secondary-secondary10: rgba(0, 32, 28, 1);
+$material-theme-ref-secondary-secondary20: rgba(0, 55, 49, 1);
+$material-theme-ref-secondary-secondary30: rgba(0, 80, 72, 1);
+$material-theme-ref-secondary-secondary40: rgba(0, 106, 96, 1);
+$material-theme-ref-secondary-secondary50: rgba(0, 134, 121, 1);
+$material-theme-ref-secondary-secondary60: rgba(0, 162, 148, 1);
+$material-theme-ref-secondary-secondary70: rgba(3, 192, 175, 1);
+$material-theme-ref-secondary-secondary80: rgba(67, 220, 202, 1);
+$material-theme-ref-secondary-secondary90: rgba(103, 249, 230, 1);
+$material-theme-ref-secondary-secondary95: rgba(180, 255, 242, 1);
+$material-theme-ref-secondary-secondary99: rgba(242, 255, 251, 1);
+$material-theme-ref-secondary-secondary100: rgba(255, 255, 255, 1);
+$material-theme-ref-secondary-secondary5: rgba(0, 20, 17, 1);
+$material-theme-ref-secondary-secondary25: rgba(0, 68, 61, 1);
+$material-theme-ref-secondary-secondary35: rgba(0, 93, 84, 1);
+$material-theme-ref-secondary-secondary98: rgba(228, 255, 249, 1);
+$material-theme-ref-tertiary-tertiary0: rgba(0, 0, 0, 1);
+$material-theme-ref-tertiary-tertiary10: rgba(0, 30, 47, 1);
+$material-theme-ref-tertiary-tertiary20: rgba(0, 52, 78, 1);
+$material-theme-ref-tertiary-tertiary30: rgba(0, 75, 111, 1);
+$material-theme-ref-tertiary-tertiary40: rgba(0, 100, 146, 1);
+$material-theme-ref-tertiary-tertiary50: rgba(0, 126, 182, 1);
+$material-theme-ref-tertiary-tertiary60: rgba(55, 153, 210, 1);
+$material-theme-ref-tertiary-tertiary70: rgba(88, 179, 239, 1);
+$material-theme-ref-tertiary-tertiary80: rgba(139, 206, 255, 1);
+$material-theme-ref-tertiary-tertiary90: rgba(201, 230, 255, 1);
+$material-theme-ref-tertiary-tertiary95: rgba(230, 242, 255, 1);
+$material-theme-ref-tertiary-tertiary99: rgba(252, 252, 255, 1);
+$material-theme-ref-tertiary-tertiary100: rgba(255, 255, 255, 1);
+$material-theme-ref-tertiary-tertiary5: rgba(0, 19, 32, 1);
+$material-theme-ref-tertiary-tertiary25: rgba(0, 63, 94, 1);
+$material-theme-ref-tertiary-tertiary35: rgba(0, 88, 128, 1);
+$material-theme-ref-tertiary-tertiary98: rgba(246, 250, 255, 1);
+$material-theme-ref-error-error0: rgba(0, 0, 0, 1);
+$material-theme-ref-error-error10: rgba(65, 0, 2, 1);
+$material-theme-ref-error-error20: rgba(105, 0, 5, 1);
+$material-theme-ref-error-error30: rgba(147, 0, 10, 1);
+$material-theme-ref-error-error40: rgba(186, 26, 26, 1);
+$material-theme-ref-error-error50: rgba(222, 55, 48, 1);
+$material-theme-ref-error-error60: rgba(255, 84, 73, 1);
+$material-theme-ref-error-error70: rgba(255, 137, 125, 1);
+$material-theme-ref-error-error80: rgba(255, 180, 171, 1);
+$material-theme-ref-error-error90: rgba(255, 218, 214, 1);
+$material-theme-ref-error-error95: rgba(255, 237, 234, 1);
+$material-theme-ref-error-error99: rgba(255, 251, 255, 1);
+$material-theme-ref-error-error100: rgba(255, 255, 255, 1);
+$material-theme-ref-error-error5: rgba(45, 0, 1, 1);
+$material-theme-ref-error-error25: rgba(126, 0, 7, 1);
+$material-theme-ref-error-error35: rgba(168, 7, 16, 1);
+$material-theme-ref-error-error98: rgba(255, 248, 247, 1);
+$material-theme-ref-neutral-neutral0: rgba(0, 0, 0, 1);
+$material-theme-ref-neutral-neutral10: rgba(26, 28, 30, 1);
+$material-theme-ref-neutral-neutral20: rgba(46, 49, 51, 1);
+$material-theme-ref-neutral-neutral30: rgba(69, 71, 73, 1);
+$material-theme-ref-neutral-neutral40: rgba(93, 94, 97, 1);
+$material-theme-ref-neutral-neutral50: rgba(117, 119, 122, 1);
+$material-theme-ref-neutral-neutral60: rgba(143, 145, 147, 1);
+$material-theme-ref-neutral-neutral70: rgba(170, 171, 174, 1);
+$material-theme-ref-neutral-neutral80: rgba(197, 198, 201, 1);
+$material-theme-ref-neutral-neutral90: rgba(226, 226, 229, 1);
+$material-theme-ref-neutral-neutral95: rgba(240, 240, 243, 1);
+$material-theme-ref-neutral-neutral99: rgba(252, 252, 255, 1);
+$material-theme-ref-neutral-neutral100: rgba(255, 255, 255, 1);
+$material-theme-ref-neutral-neutral5: rgba(15, 17, 19, 1);
+$material-theme-ref-neutral-neutral25: rgba(57, 60, 62, 1);
+$material-theme-ref-neutral-neutral35: rgba(81, 83, 85, 1);
+$material-theme-ref-neutral-neutral98: rgba(249, 249, 252, 1);
+$material-theme-ref-neutral-variant-neutral-variant0: rgba(0, 0, 0, 1);
+$material-theme-ref-neutral-variant-neutral-variant10: rgba(22, 28, 33, 1);
+$material-theme-ref-neutral-variant-neutral-variant20: rgba(43, 49, 55, 1);
+$material-theme-ref-neutral-variant-neutral-variant30: rgba(65, 71, 77, 1);
+$material-theme-ref-neutral-variant-neutral-variant40: rgba(89, 95, 101, 1);
+$material-theme-ref-neutral-variant-neutral-variant50: rgba(114, 120, 126, 1);
+$material-theme-ref-neutral-variant-neutral-variant60: rgba(139, 145, 152, 1);
+$material-theme-ref-neutral-variant-neutral-variant70: rgba(166, 172, 179, 1);
+$material-theme-ref-neutral-variant-neutral-variant80: rgba(193, 199, 206, 1);
+$material-theme-ref-neutral-variant-neutral-variant90: rgba(221, 227, 234, 1);
+$material-theme-ref-neutral-variant-neutral-variant95: rgba(236, 241, 249, 1);
+$material-theme-ref-neutral-variant-neutral-variant99: rgba(252, 252, 255, 1);
+$material-theme-ref-neutral-variant-neutral-variant100: rgba(255, 255, 255, 1);
+$material-theme-ref-neutral-variant-neutral-variant5: rgba(11, 18, 23, 1);
+$material-theme-ref-neutral-variant-neutral-variant25: rgba(54, 60, 66, 1);
+$material-theme-ref-neutral-variant-neutral-variant35: rgba(77, 83, 89, 1);
+$material-theme-ref-neutral-variant-neutral-variant98: rgba(246, 250, 255, 1);
+$material-theme-key-colors-primary: rgba(56, 183, 255, 1);
+$material-theme-key-colors-secondary: rgba(101, 247, 228, 1);
+$material-theme-key-colors-tertiary: rgba(31, 102, 142, 1);
+$material-theme-key-colors-neutral: rgba(31, 102, 142, 1);
+$material-theme-source-seed: rgba(56, 183, 255, 1);
+$material-theme-surfaces-light-surface1-0: rgba(252, 252, 255, 1);
+$material-theme-surfaces-light-surface1-1: rgba(0, 100, 146, 0.1);
+$material-theme-surfaces-light-surface2-0: rgba(252, 252, 255, 1);
+$material-theme-surfaces-light-surface2-1: rgba(0, 100, 146, 0.1);
+$material-theme-surfaces-light-surface3-0: rgba(252, 252, 255, 1);
+$material-theme-surfaces-light-surface3-1: rgba(0, 100, 146, 0.1);
+$material-theme-surfaces-light-surface4-0: rgba(252, 252, 255, 1);
+$material-theme-surfaces-light-surface4-1: rgba(0, 100, 146, 0.1);
+$material-theme-surfaces-light-surface5-0: rgba(252, 252, 255, 1);
+$material-theme-surfaces-light-surface5-1: rgba(0, 100, 146, 0.1);
+$material-theme-surfaces-dark-surface1-0: rgba(26, 28, 30, 1);
+$material-theme-surfaces-dark-surface1-1: rgba(139, 206, 255, 0.1);
+$material-theme-surfaces-dark-surface2-0: rgba(26, 28, 30, 1);
+$material-theme-surfaces-dark-surface2-1: rgba(139, 206, 255, 0.1);
+$material-theme-surfaces-dark-surface3-0: rgba(26, 28, 30, 1);
+$material-theme-surfaces-dark-surface3-1: rgba(139, 206, 255, 0.1);
+$material-theme-surfaces-dark-surface4-0: rgba(26, 28, 30, 1);
+$material-theme-surfaces-dark-surface4-1: rgba(139, 206, 255, 0.1);
+$material-theme-surfaces-dark-surface5-0: rgba(26, 28, 30, 1);
+$material-theme-surfaces-dark-surface5-1: rgba(139, 206, 255, 0.1);
+$material-theme-extended-accent-seed: rgba(255, 46, 123, 1);
+$material-theme-extended-accent-value: rgba(255, 46, 123, 1);
+$material-theme-extended-accent-light-color: rgba(187, 0, 84, 1);
+$material-theme-extended-accent-light-on-color: rgba(255, 255, 255, 1);
+$material-theme-extended-accent-light-color-container: rgba(255, 217, 223, 1);
+$material-theme-extended-accent-light-on-color-container: rgba(63, 0, 24, 1);
+$material-theme-extended-accent-dark-color: rgba(255, 177, 193, 1);
+$material-theme-extended-accent-dark-on-color: rgba(102, 0, 42, 1);
+$material-theme-extended-accent-dark-color-container: rgba(143, 0, 63, 1);
+$material-theme-extended-accent-dark-on-color-container: rgba(255, 217, 223, 1);
+$material-theme-extended-accent-group-tone0: rgba(0, 0, 0, 1);
+$material-theme-extended-accent-group-tone5: rgba(43, 0, 14, 1);
+$material-theme-extended-accent-group-tone10: rgba(63, 0, 24, 1);
+$material-theme-extended-accent-group-tone15: rgba(82, 0, 33, 1);
+$material-theme-extended-accent-group-tone20: rgba(102, 0, 42, 1);
+$material-theme-extended-accent-group-tone25: rgba(122, 0, 52, 1);
+$material-theme-extended-accent-group-tone30: rgba(143, 0, 63, 1);
+$material-theme-extended-accent-group-tone35: rgba(165, 0, 73, 1);
+$material-theme-extended-accent-group-tone40: rgba(187, 0, 84, 1);
+$material-theme-extended-accent-group-tone50: rgba(230, 19, 107, 1);
+$material-theme-extended-accent-group-tone60: rgba(255, 76, 134, 1);
+$material-theme-extended-accent-group-tone70: rgba(255, 133, 164, 1);
+$material-theme-extended-accent-group-tone80: rgba(255, 177, 193, 1);
+$material-theme-extended-accent-group-tone90: rgba(255, 217, 223, 1);
+$material-theme-extended-accent-group-tone95: rgba(255, 236, 238, 1);
+$material-theme-extended-accent-group-tone98: rgba(255, 248, 247, 1);
+$material-theme-extended-accent-group-tone99: rgba(255, 251, 255, 1);
+$material-theme-extended-accent-group-tone100: rgba(255, 255, 255, 1);

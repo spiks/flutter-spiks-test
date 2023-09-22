@@ -1,0 +1,36 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="paint0_linear_11_39" x1="58.125" y1="75.0008" x2="114.375" y2="75.0008"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6BE1E0" />
+            <stop offset="1" stop-color="#38B7FF" />
+        </linearGradient>
+        <linearGradient id="paint1_linear_11_39" x1="58.125" y1="97.5008" x2="91.875" y2="97.5008"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6BE1E0" />
+            <stop offset="1" stop-color="#38B7FF" />
+        </linearGradient>
+        <linearGradient id="paint2_linear_11_39" x1="15" y1="86.2602" x2="157.5" y2="86.2602"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6BE1E0" />
+            <stop offset="1" stop-color="#38B7FF" />
+        </linearGradient>
+        <linearGradient id="paint3_linear_11_39" x1="140.606" y1="152.805" x2="165.019" y2="152.805"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6BE1E0" />
+            <stop offset="1" stop-color="#38B7FF" />
+        </linearGradient>
+    </defs>
+    <path
+        d="M108.75 80.625H63.75C60.675 80.625 58.125 78.075 58.125 75C58.125 71.925 60.675 69.375 63.75 69.375H108.75C111.825 69.375 114.375 71.925 114.375 75C114.375 78.075 111.825 80.625 108.75 80.625Z"
+        fill="url(#paint0_linear_11_39)" />
+    <path
+        d="M86.25 103.125H63.75C60.675 103.125 58.125 100.575 58.125 97.5C58.125 94.425 60.675 91.875 63.75 91.875H86.25C89.325 91.875 91.875 94.425 91.875 97.5C91.875 100.575 89.325 103.125 86.25 103.125Z"
+        fill="url(#paint1_linear_11_39)" />
+    <path opacity="0.4"
+        d="M86.25 157.5C125.6 157.5 157.5 125.6 157.5 86.25C157.5 46.8997 125.6 15 86.25 15C46.8997 15 15 46.8997 15 86.25C15 125.6 46.8997 157.5 86.25 157.5Z"
+        fill="url(#paint2_linear_11_39)" />
+    <path
+        d="M159.75 165C158.4 165 157.05 164.475 156.075 163.5L142.125 149.55C140.1 147.525 140.1 144.225 142.125 142.125C144.15 140.1 147.45 140.1 149.55 142.125L163.5 156.075C165.525 158.1 165.525 161.4 163.5 163.5C162.45 164.475 161.1 165 159.75 165Z"
+        fill="url(#paint3_linear_11_39)" />
+</svg>
