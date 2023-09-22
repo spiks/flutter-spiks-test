@@ -1,0 +1,286 @@
+/* colorStyles */
+resources:
+	neutral:
+		[900]: rgba(26, 26, 26, 1)
+		[800]: rgba(51, 51, 51, 1)
+		[700]: rgba(89, 89, 89, 1)
+		[500]: rgba(128, 128, 128, 1)
+		[200]: rgba(204, 204, 204, 1)
+		[100]: rgba(230, 230, 230, 1)
+		[000]: rgba(255, 255, 255, 1)
+	error: rgba(255, 69, 69, 1)
+	accent: rgba(255, 47, 124, 1)
+	secondary: rgba(101, 247, 228, 1)
+	tertiary: rgba(31, 102, 143, 1)
+	primary:
+		[500]: rgba(56, 183, 255, 1)
+		[400]: rgba(96, 197, 255, 1)
+		[300]: rgba(173, 225, 255, 1)
+		[200]: rgba(214, 240, 255, 1)
+		[100]: rgba(235, 248, 255, 1)
+
+m3White: rgba(255, 255, 255, 1)
+m3Black: rgba(0, 0, 0, 1)
+light:
+	primary: rgba(56, 183, 255, 1)
+  onPrimary: rgba(255, 255, 255, 1)
+  primaryContainer: rgba(201, 230, 255, 0.30)
+  onPrimaryContainer: rgba(0, 30, 47, 1)
+  secondary: rgba(0, 106, 96, 1)
+  onSecondary: rgba(255, 255, 255, 1)
+  secondaryContainer: rgba(103, 249, 230, 1)
+  onSecondaryContainer: rgba(0, 32, 28, 1)
+  tertiary: rgba(0, 100, 146, 1)
+  onTertiary: rgba(255, 255, 255, 1)
+  tertiaryContainer: rgba(201, 230, 255, 1)
+  onTertiaryContainer: rgba(0, 30, 47, 1)
+  error: rgba(186, 26, 26, 1)
+  onError: rgba(255, 255, 255, 1)
+  errorContainer: rgba(255, 218, 214, 1)
+  onErrorContainer: rgba(65, 0, 2, 1)
+  outline: rgba(114, 120, 126, 1)
+  background: rgba(252, 252, 255, 1)
+  onBackground: rgba(26, 28, 30, 1)
+  surface: rgba(252, 252, 255, 1)
+  onSurface: rgba(26, 28, 30, 1)
+  surfaceVariant: rgba(221, 227, 234, 1)
+  onSurfaceVariant: rgba(65, 71, 77, 1)
+  inverseSurface: rgba(46, 49, 51, 1)
+  inverseOnSurface: rgba(240, 240, 243, 1)
+  inversePrimary: rgba(139, 206, 255, 1)
+  shadow: rgba(0, 0, 0, 1)
+  surfaceTint: rgba(0, 100, 146, 1)
+  outlineVariant: rgba(193, 199, 206, 1)
+  scrim: rgba(0, 0, 0, 1)
+
+dark:
+	primary: rgba(139, 206, 255, 1) // primary[80]
+  onPrimary: rgba(0, 52, 78, 1)
+  primaryContainer: rgba(0, 75, 111, 1)
+  onPrimaryContainer: rgba(201, 230, 255, 1)
+  secondary: rgba(67, 220, 202, 1)
+  onSecondary: rgba(0, 55, 49, 1)
+  secondaryContainer: rgba(0, 80, 72, 1)
+  onSecondaryContainer: rgba(103, 249, 230, 1)
+  tertiary: rgba(139, 206, 255, 1) // tertiary[80]
+  onTertiary: rgba(0, 52, 78, 1)
+  tertiaryContainer: rgba(0, 75, 111, 1)
+  onTertiaryContainer: rgba(201, 230, 255, 1)
+  error: rgba(255, 180, 171, 1)
+  onError: rgba(105, 0, 5, 1)
+  errorContainer: rgba(147, 0, 10, 1)
+  onErrorContainer: rgba(255, 218, 214, 1)
+  outline: rgba(139, 145, 152, 1)
+  background: rgba(26, 28, 30, 1)
+  onBackground: rgba(226, 226, 229, 1)
+  surface: rgba(26, 28, 30, 1)
+  onSurface: rgba(197, 198, 201, 1)
+  surfaceVariant: rgba(65, 71, 77, 1)
+  onSurfaceVariant: rgba(193, 199, 206, 1)
+  inverseSurface: rgba(226, 226, 229, 1)
+  inverseOnSurface: rgba(26, 28, 30, 1)
+  inversePrimary: rgba(0, 100, 146, 1)
+  shadow: rgba(0, 0, 0, 1)
+  surfaceTint: rgba(139, 206, 255, 1) // primary[80]
+  outlineVariant: rgba(65, 71, 77, 1)
+  scrim: rgba(0, 0, 0, 1)
+
+colorReferences:
+	primary:
+		[0]: rgba(0, 0, 0, 1)
+		[5]: rgba(0, 19, 32, 1)
+		[10]: rgba(0, 30, 47, 1)
+		[20]: rgba(0, 52, 78, 1)
+		[25]: rgba(0, 63, 94, 1)
+		[30]: rgba(0, 75, 111, 1)
+		[35]: rgba(0, 88, 128, 1)
+		[40]: rgba(0, 100, 146, 1)
+		[50]: rgba(0, 126, 183, 1)
+		[60]: rgba(0, 153, 221, 1)
+		[70]: rgba(52, 181, 253, 1)
+		[80]: rgba(139, 206, 255, 1)
+		[90]: rgba(201, 230, 255, 1)
+		[95]: rgba(230, 242, 255, 1)
+		[98]: rgba(246, 250, 255, 1)
+		[99]: rgba(252, 252, 255, 1)
+		[100]: rgba(255, 255, 255, 1)
+	secondary:
+		[0]: rgba(0, 0, 0, 1)
+    [5]: rgba(0, 20, 17, 1)
+    [10]: rgba(0, 32, 28, 1)
+    [20]: rgba(0, 55, 49, 1)
+    [25]: rgba(0, 68, 61, 1)
+    [30]: rgba(0, 80, 72, 1)
+    [35]: rgba(0, 93, 84, 1)
+    [40]: rgba(0, 106, 96, 1)
+    [50]: rgba(0, 134, 121, 1)
+    [60]: rgba(0, 162, 148, 1)
+    [70]: rgba(3, 192, 175, 1)
+    [80]: rgba(67, 220, 202, 1)
+    [90]: rgba(103, 249, 230, 1)
+    [95]: rgba(180, 255, 242, 1)
+    [98]: rgba(228, 255, 249, 1)
+    [99]: rgba(242, 255, 251, 1)
+    [100]: rgba(255, 255, 255, 1)
+	tertiary:
+		[0]: rgba(0, 0, 0, 1)
+    [5]: rgba(0, 19, 32, 1)
+    [10]: rgba(0, 30, 47, 1)
+    [20]: rgba(0, 52, 78, 1)
+    [25]: rgba(0, 63, 94, 1)
+    [30]: rgba(0, 75, 111, 1)
+    [35]: rgba(0, 88, 128, 1)
+    [40]: rgba(0, 100, 146, 1)
+    [50]: rgba(0, 126, 182, 1)
+    [60]: rgba(55, 153, 210, 1)
+    [70]: rgba(88, 179, 239, 1)
+    [80]: rgba(139, 206, 255, 1)
+    [90]: rgba(201, 230, 255, 1)
+    [95]: rgba(230, 242, 255, 1)
+    [98]: rgba(246, 250, 255, 1)
+    [99]: rgba(252, 252, 255, 1)
+    [100]: rgba(255, 255, 255, 1)
+  error:
+    [0]: rgba(0, 0, 0, 1)
+    [5]: rgba(45, 0, 1, 1)
+    [10]: rgba(65, 0, 2, 1)
+    [20]: rgba(105, 0, 5, 1)
+    [25]: rgba(126, 0, 7, 1)
+    [30]: rgba(147, 0, 10, 1)
+    [35]: rgba(168, 7, 16, 1)
+    [40]: rgba(186, 26, 26, 1)
+    [50]: rgba(222, 55, 48, 1)
+    [60]: rgba(255, 84, 73, 1)
+    [70]: rgba(255, 137, 125, 1)
+    [80]: rgba(255, 180, 171, 1)
+    [90]: rgba(255, 218, 214, 1)
+    [95]: rgba(255, 237, 234, 1)
+    [98]: rgba(255, 248, 247, 1)
+    [99]: rgba(255, 251, 255, 1)
+    [100]: rgba(255, 255, 255, 1)
+  neutral:
+    [0]: rgba(0, 0, 0, 1)
+    [5]: rgba(15, 17, 19, 1)
+    [10]: rgba(26, 28, 30, 1)
+    [20]: rgba(46, 49, 51, 1)
+    [25]: rgba(57, 60, 62, 1)
+    [30]: rgba(69, 71, 73, 1)
+    [35]: rgba(81, 83, 85, 1)
+    [40]: rgba(93, 94, 97, 1)
+    [50]: rgba(117, 119, 122, 1)
+    [60]: rgba(143, 145, 147, 1)
+    [70]: rgba(170, 171, 174, 1)
+    [80]: rgba(197, 198, 201, 1)
+    [90]: rgba(226, 226, 229, 1)
+    [95]: rgba(240, 240, 243, 1)
+    [98]: rgba(249, 249, 252, 1)
+    [99]: rgba(252, 252, 255, 1)
+    [100]: rgba(255, 255, 255, 1)
+  neutralVariant:
+    [0]: rgba(0, 0, 0, 1)
+    [5]: rgba(11, 18, 23, 1)
+    [10]: rgba(22, 28, 33, 1)
+    [20]: rgba(43, 49, 55, 1)
+    [25]: rgba(54, 60, 66, 1)
+    [30]: rgba(65, 71, 77, 1)
+    [35]: rgba(77, 83, 89, 1)
+    [40]: rgba(89, 95, 101, 1)
+    [50]: rgba(114, 120, 126, 1)
+    [60]: rgba(139, 145, 152, 1)
+    [70]: rgba(166, 172, 179, 1)
+    [80]: rgba(193, 199, 206, 1)
+    [90]: rgba(221, 227, 234, 1)
+    [95]: rgba(236, 241, 249, 1)
+    [98]: rgba(246, 250, 255, 1)
+    [99]: rgba(252, 252, 255, 1)
+    [100]: rgba(255, 255, 255, 1)
+key:
+	primary: rgba(56, 183, 255, 1)
+  secondary: rgba(101, 247, 228, 1)
+  tertiary: rgba(31, 102, 143, 1)
+  neutral: rgba(31, 102, 143, 1)
+
+	seed: rgba(56, 183, 255, 1)
+
+surfaces:
+	lightSurface:
+		[1]: rgba(252, 252, 255, 1)
+		[2]: rgba(252, 252, 255, 1)
+		[3]: rgba(252, 252, 255, 1)
+		[4]: rgba(252, 252, 255, 1)
+		[5]: rgba(252, 252, 255, 1)
+	darkSurface:
+		[1]: rgba(26, 28, 30, 1)
+    [2]: rgba(26, 28, 30, 1)
+    [3]: rgba(26, 28, 30, 1)
+    [4]: rgba(26, 28, 30, 1)
+    [5]: rgba(26, 28, 30, 1)
+extended:
+	seed: rgba(255, 47, 124, 1)
+  value: rgba(255, 47, 124, 1)
+  light:
+    color: rgba(187, 0, 84, 1)
+    onColor: rgba(255, 255, 255, 1)
+    colorContainer: rgba(255, 217, 223, 1)
+    onColorContainer: rgba(63, 0, 24, 1)
+  darK:
+    color: rgba(255, 177, 193, 1)
+    onColor: rgba(102, 0, 42, 1)
+    colorContainer: rgba(143, 0, 63, 1)
+    onColorContainer: rgba(255, 217, 223, 1)
+  tone:
+    [0]: rgba(0, 0, 0, 1)
+    [5]: rgba(43, 0, 14, 1)
+    [10]: rgba(63, 0, 24, 1)
+    [15]: rgba(82, 0, 33, 1)
+    [20]: rgba(102, 0, 42, 1)
+    [25]: rgba(122, 0, 52, 1)
+    [30]: rgba(143, 0, 63, 1)
+    [35]: rgba(165, 0, 73, 1)
+    [40]: rgba(187, 0, 84, 1)
+    [50]: rgba(230, 19, 107, 1)
+    [60]: rgba(255, 76, 134, 1)
+    [70]: rgba(255, 133, 164, 1)
+    [80]: rgba(255, 177, 193, 1)
+    [90]: rgba(255, 217, 223, 1)
+    [95]: rgba(255, 236, 238, 1)
+    [98]: rgba(255, 248, 247, 1)
+    [99]: rgba(255, 251, 255, 1)
+    [100]: rgba(255, 255, 255, 1)
+
+/* textSizeStyles */
+displayLarge: 48px
+displayMedium: 36px
+displaySmall: 32px
+headlineMedium: 24px
+headlineSmall: 20px
+titleLarge: 18px
+titleMedium: 16px
+bodySmall: 14px
+bodyLarge: 18px
+bodyMedium: 16px
+labelLarge: 18px
+labelMedium: 16px
+labelSmall: 12px
+--materialTheme--Display--Large: 57px
+--materialTheme--Display--Medium: 45px
+--materialTheme--Display--Small: 36px
+--materialTheme--Headline--Large: 32px
+--materialTheme--Headline--Medium: 28px
+--materialTheme--Headline--Small: 24px
+--materialTheme--Title--Large: 22px
+--materialTheme--Title--Medium: 16px
+--materialTheme--Title--Small: 14px
+--materialTheme--Body--Large: 16px
+--materialTheme--Body--Medium: 14px
+--materialTheme--Body--Small: 12px
+--materialTheme--Label--Large: 14px
+--materialTheme--Label--Medium: 12px
+--materialTheme--Label--Small: 11px
+
+/* effectStyles */
+--shadow---Large--Button:  0px8Px32PxRgba(31, 102, 143, 0.24), 0px4Px8PxRgba(31, 102, 143, 0.32)
+--shadow---Small--Button:  0px8Px32PxRgba(31, 102, 143, 0.08), 0px4Px8PxRgba(31, 102, 143, 0.16)
+--blur---Main: 32
+--blur---Strong: 56
+--shadow--Button---Blue:  0px8Px24PxRgba(31, 102, 143, 0.32), 0px4Px8PxRgba(31, 102, 143, 0.16)

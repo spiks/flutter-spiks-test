@@ -1,0 +1,31 @@
+targets:
+  $default:
+    sources:
+      - $package$
+      - lib/$lib$
+      - lib/**/**_bloc.dart
+      - lib/**/**_event.dart
+      - lib/**/**_state.dart
+      - lib/**/bloc/**.dart
+      - lib/**/blocs/**.dart
+      - lib/**/models/**/**.dart
+      - lib/**/models/**.dart
+      - lib/**/model/**/**.dart
+      - lib/**/model/**.dart
+      - lib/**/**.model.dart
+      - lib/**/**.mapper.dart
+      - lib/**/**_page.dart
+      - lib/**/mappers/**.dart
+      - lib/**/mappers/**/**.dart
+      - lib/src/navigation/auto_router.dart
+    builders:
+#      freezed:
+#        enabled: true
+#        generate_for:
+#          include:
+      json_serializable|json_serializable:
+        enabled: true
+#        generate_for:
+#          include:
+        options:
+          checked: true
