@@ -1,11 +1,11 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_spiks_test/core/dimens/app_dimens.dart';
 import 'package:flutter_spiks_test/core/spacings/app_spacing.dart';
 import 'package:flutter_spiks_test/core/themes/theme_class.dart';
 import 'package:flutter_spiks_test/features/app/bloc/app_bloc.dart';
 import 'package:flutter_spiks_test/features/therapists/presentation/widgets/bottom_nav_bar.dart';
 import 'package:flutter_spiks_test/generated/l10n.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 
 /**
  * Страница настройки приложения: смена языка и темы оформления

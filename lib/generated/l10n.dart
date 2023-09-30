@@ -50,70 +50,70 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
-  /// `Замените!!! Полное имя создателя`
+  /// `REPLACE!!! Full name creator`
   String get full_name_creator {
     return Intl.message(
-      'Замените!!! Полное имя создателя',
+      'REPLACE!!! Full name creator',
       name: 'full_name_creator',
       desc: '',
       args: [],
     );
   }
 
-  /// `Перейти на главную страницу`
+  /// `go to home page`
   String get btn_go_to_home_page {
     return Intl.message(
-      'Перейти на главную страницу',
+      'go to home page',
       name: 'btn_go_to_home_page',
       desc: '',
       args: [],
     );
   }
 
-  /// `Ошибка загрузки`
+  /// `Load failed`
   String get load_failed {
     return Intl.message(
-      'Ошибка загрузки',
+      'Load failed',
       name: 'load_failed',
       desc: '',
       args: [],
     );
   }
 
-  /// `Список врачей`
+  /// `Therapist list`
   String get therapist_list {
     return Intl.message(
-      'Список врачей',
+      'Therapist list',
       name: 'therapist_list',
       desc: '',
       args: [],
     );
   }
 
-  /// `Загрузка картинки`
+  /// `Load image`
   String get load_image {
     return Intl.message(
-      'Загрузка картинки',
+      'Load image',
       name: 'load_image',
       desc: '',
       args: [],
     );
   }
 
-  /// `Страница меню`
+  /// `Home menu`
   String get home {
     return Intl.message(
-      'Страница меню',
+      'Home menu',
       name: 'home',
       desc: '',
       args: [],
     );
   }
 
-  /// `Настройки`
+  /// `Setting`
   String get setting {
     return Intl.message(
-      'Настройки',
+      'Setting',
       name: 'setting',
       desc: '',
       args: [],
@@ -140,40 +140,40 @@ class S {
     );
   }
 
-  /// `Темная тема`
+  /// `Dark mode`
   String get dark_mode {
     return Intl.message(
-      'Темная тема',
+      'Dark mode',
       name: 'dark_mode',
       desc: '',
       args: [],
     );
   }
 
-  /// `Успешно удалено`
+  /// `Delete success`
   String get delete_success {
     return Intl.message(
-      'Успешно удалено',
+      'Delete success',
       name: 'delete_success',
       desc: '',
       args: [],
     );
   }
 
-  /// `Ошибка удаления`
+  /// `Delete failed`
   String get delete_failed {
     return Intl.message(
-      'Ошибка удаления',
+      'Delete failed',
       name: 'delete_failed',
       desc: '',
       args: [],
     );
   }
 
-  /// `Не поддерживается`
+  /// `Didn't support`
   String get didnt_supported {
     return Intl.message(
-      'Не поддерживается',
+      'Didn\'t support',
       name: 'didnt_supported',
       desc: '',
       args: [],
@@ -190,40 +190,40 @@ class S {
     );
   }
 
-  /// `Подтвердить`
+  /// `Confirm`
   String get confirmation {
     return Intl.message(
-      'Подтвердить',
+      'Confirm',
       name: 'confirmation',
       desc: '',
       args: [],
     );
   }
 
-  /// `Отмена`
+  /// `Cancel`
   String get cancel {
     return Intl.message(
-      'Отмена',
+      'Cancel',
       name: 'cancel',
       desc: '',
       args: [],
     );
   }
 
-  /// `Да`
+  /// `Yes`
   String get yes {
     return Intl.message(
-      'Да',
+      'Yes',
       name: 'yes',
       desc: '',
       args: [],
     );
   }
 
-  /// `Нет`
+  /// `No`
   String get no {
     return Intl.message(
-      'Нет',
+      'No',
       name: 'no',
       desc: '',
       args: [],
@@ -240,90 +240,90 @@ class S {
     );
   }
 
-  /// `Что-то произошло`
+  /// `Something went wrong`
   String get e_smthWentWrong {
     return Intl.message(
-      'Что-то произошло',
+      'Something went wrong',
       name: 'e_smthWentWrong',
       desc: '',
       args: [],
     );
   }
 
-  /// `Попробовать ещё раз`
+  /// `Try again`
   String get try_again {
     return Intl.message(
-      'Попробовать ещё раз',
+      'Try again',
       name: 'try_again',
       desc: '',
       args: [],
     );
   }
 
-  /// `Попробуйте обновить данные снова или обратиться в техническую поддержку.`
+  /// `Try update data again or contact technical support.`
   String get try_again_description {
     return Intl.message(
-      'Попробуйте обновить данные снова или обратиться в техническую поддержку.',
+      'Try update data again or contact technical support.',
       name: 'try_again_description',
       desc: '',
       args: [],
     );
   }
 
-  /// `Возникла ошибка`
+  /// `Error occurred`
   String get error_occurred {
     return Intl.message(
-      'Возникла ошибка',
+      'Error occurred',
       name: 'error_occurred',
       desc: '',
       args: [],
     );
   }
 
-  /// `Психологи`
+  /// `Therapists`
   String get therapists {
     return Intl.message(
-      'Психологи',
+      'Therapists',
       name: 'therapists',
       desc: '',
       args: [],
     );
   }
 
-  /// `В данный момент не удалось найти подходящего специалиста`
+  /// `Unable to find a suitable therapist at the moment`
   String get empty_therapists {
     return Intl.message(
-      'В данный момент не удалось найти подходящего специалиста',
+      'Unable to find a suitable therapist at the moment',
       name: 'empty_therapists',
       desc: '',
       args: [],
     );
   }
 
-  /// `Попробуйте снизить критерии \nили попробуйте позже`
+  /// `Try lower criteria \nor try again later`
   String get empty_therapists_description {
     return Intl.message(
-      'Попробуйте снизить критерии \nили попробуйте позже',
+      'Try lower criteria \nor try again later',
       name: 'empty_therapists_description',
       desc: '',
       args: [],
     );
   }
 
-  /// `У вас еще нет психологов`
+  /// `You don't have any psychologists yet`
   String get empty_my_therapists {
     return Intl.message(
-      'У вас еще нет психологов',
+      'You don\'t have any psychologists yet',
       name: 'empty_my_therapists',
       desc: '',
       args: [],
     );
   }
 
-  /// `Запишитесь на первую сессию, после этого психологи станут доступны в этом разделе`
+  /// `Sign up for the first session, after that psychologists will be available in this section`
   String get empty_my_therapists_description {
     return Intl.message(
-      'Запишитесь на первую сессию, после этого психологи станут доступны в этом разделе',
+      'Sign up for the first session, after that psychologists will be available in this section',
       name: 'empty_my_therapists_description',
       desc: '',
       args: [],
@@ -336,8 +336,8 @@ class AppLocalizationDelegate extends LocalizationsDelegate<S> {
 
   List<Locale> get supportedLocales {
     return const <Locale>[
-      Locale.fromSubtags(languageCode: 'ru'),
       Locale.fromSubtags(languageCode: 'en'),
+      Locale.fromSubtags(languageCode: 'ru'),
     ];
   }
 

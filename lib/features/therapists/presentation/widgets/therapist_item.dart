@@ -8,9 +8,10 @@ import 'package:flutter_spiks_test/widgets/widgets/rounded_avatar.dart';
 import 'package:go_router/go_router.dart';
 
 class TherapistListItem extends StatelessWidget {
+  const TherapistListItem({required this.therapist, this.discount, super.key});
 
-  const TherapistListItem({required this.therapist, super.key});
   final Therapist therapist;
+  final int? discount;
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +20,7 @@ class TherapistListItem extends StatelessWidget {
       child: InkWell(
         borderRadius: BorderRadius.circular(12),
         onTap: () =>
-            context.go("${AppRouter.therapistsListPath}/${therapist.id}"),
+            context.go('${AppRouter.therapistsListPath}/${therapist.id}'),
         highlightColor: context.scheme.primary.withOpacity(.2),
         child: Container(
           margin: const EdgeInsets.all(
@@ -48,6 +49,13 @@ class TherapistListItem extends StatelessWidget {
                                 style: context.textTheme.titleLarge,
                                 maxLines: 2,
                               ),
+                              const Gap(4),
+                              if (therapist.mainSpecialization != null)
+                                Text(therapist.mainSpecialization!,
+                                  style: context.textTheme.bodySmall,
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                ),
                             ],
                           ),
                         ),

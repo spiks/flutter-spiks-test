@@ -1,7 +1,7 @@
 class AppConfig {
   static String baseUrl = '';
 
-  static const String defaultLocale = 'en';
+  static const String defaultLocale = 'ru';
 
   static void configDev() {
     baseUrl = 'https://dog.ceo/api';

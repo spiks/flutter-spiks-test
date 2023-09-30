@@ -52,7 +52,7 @@ class BottomNavBar extends StatelessWidget {
         BottomNavigationBarItem(
           label: S.of(context).setting,
           icon: _NavItem(
-            icon: OutlineIcons.cam,
+            icon: OutlineIcons.settings,
             text: S.of(context).setting,
           ),
           activeIcon: GradientMask(
