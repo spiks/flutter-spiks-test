@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spiks_test/core/themes/theme_class.dart';
 import 'package:flutter_spiks_test/data/repositories/models/therapists_models/therapists_models.dart';
+import 'package:flutter_spiks_test/features/therapists/presentation/widgets/appbar_therapists_list.dart';
 import 'package:flutter_spiks_test/features/therapists/presentation/widgets/bottom_nav_bar.dart';
 import 'package:flutter_spiks_test/features/therapists/presentation/widgets/therapist_item.dart';
-import 'package:flutter_spiks_test/generated/l10n.dart';
 import 'package:flutter_spiks_test/widgets/scroll_views/paginated_list/paginated_sliver_list.dart';
 import 'package:flutter_spiks_test/widgets/scroll_views/paginated_list/values/pagination_status.dart';
 
@@ -19,10 +19,7 @@ class TherapistsListPage extends StatelessWidget {
     ];
 
     return Scaffold(
-      appBar: AppBar(
-        title: Text(S.of(context).therapists),
-        automaticallyImplyLeading: false,
-      ),
+      appBar: const AppbarTherapists(),
       body: CustomScrollView(slivers: [
         PaginatedSliverList(
           paginationStatus: PaginationStatus.lastPage,

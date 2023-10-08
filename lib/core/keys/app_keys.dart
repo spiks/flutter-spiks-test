@@ -4,14 +4,6 @@ class AppKeys {
   /// App service
   static const String darkModeKey = 'darkMode';
   static const String localeKey = 'locale';
-
-  /// Auth service
-  static const String accessTokenKey = 'accessToken';
-  static const String refreshTokenKey = 'refreshToken';
-  static const String tenantKey = 'tenant';
-  static const String lastLoginKey = 'lastLogin';
-  static const String lastUsername = 'username';
-  static const String lastEmail = 'email';
 }
 
 class WidgetKeys {

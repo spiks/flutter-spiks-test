@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_spiks_test/core/values/icons/outline_icons.dart';
-import 'package:flutter_spiks_test/generated/l10n.dart';
 
 class AppbarTherapists extends StatelessWidget implements PreferredSizeWidget {
   const AppbarTherapists({super.key});

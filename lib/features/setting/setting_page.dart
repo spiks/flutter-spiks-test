@@ -1,15 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_spiks_test/core/dimens/app_dimens.dart';
 import 'package:flutter_spiks_test/core/spacings/app_spacing.dart';
 import 'package:flutter_spiks_test/core/themes/theme_class.dart';
 import 'package:flutter_spiks_test/features/app/bloc/app_bloc.dart';
 import 'package:flutter_spiks_test/features/therapists/presentation/widgets/bottom_nav_bar.dart';
 import 'package:flutter_spiks_test/generated/l10n.dart';
 
-/**
- * Страница настройки приложения: смена языка и темы оформления
-*/
+/// Страница настройки приложения: смена языка и темы оформления
 class SettingPage extends StatelessWidget {
   const SettingPage({super.key});
 
@@ -20,7 +17,7 @@ class SettingPage extends StatelessWidget {
         title: Text(S.of(context).setting),
       ),
       body: const Padding(
-        padding: EdgeInsets.all(AppDimens.basePadding),
+        padding: EdgeInsets.all(8),
         child: Column(
           children: [
             _LangRow(),

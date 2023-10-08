@@ -1,8 +1,9 @@
 import 'dart:async';
 
-import 'package:flutter_spiks_test/core/keys/app_keys.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_spiks_test/core/keys/app_keys.dart';
 import 'package:flutter_test/flutter_test.dart';
+
 import 'robot_tester_base.dart';
 
 class IntroRobot extends RobotTesterBase {

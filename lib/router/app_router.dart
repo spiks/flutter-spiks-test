@@ -1,6 +1,6 @@
 import 'package:flutter_spiks_test/features/app/view/app_director.dart';
 import 'package:flutter_spiks_test/features/setting/setting_page.dart';
-import 'package:flutter_spiks_test/features/therapistDetailsPage/therapist_details_page.dart';
+import 'package:flutter_spiks_test/features/therapistDetailsPage/view/therapist_details_page.dart';
 import 'package:flutter_spiks_test/features/therapists/presentation/therapists_list_page.dart';
 import 'package:go_router/go_router.dart';
 

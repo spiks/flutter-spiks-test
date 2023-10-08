@@ -1,6 +1,5 @@
-/**
- * Модель терапевта
-**/
+/// Модель терапевта
+/// Расширьте при необходимости
 
 class Therapist {
   final String id;
@@ -8,6 +7,7 @@ class Therapist {
   final String surname;
   // avatar url
   final String? avatar;
+  // главная специализация
   final String? mainSpecialization;
   // годы опыта
   final int experience;

@@ -8,7 +8,7 @@ class BlocModule {
     final injector = Injector.instance;
 
     injector
-      ..registerLazySingleton<AppBloc>(
+      .registerLazySingleton<AppBloc>(
         () => AppBloc(
           appService: injector(),
           logService: injector(),

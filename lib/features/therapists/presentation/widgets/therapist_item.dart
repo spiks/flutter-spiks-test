@@ -7,6 +7,8 @@ import 'package:flutter_spiks_test/widgets/gap/widgets/gap.dart';
 import 'package:flutter_spiks_test/widgets/widgets/rounded_avatar.dart';
 import 'package:go_router/go_router.dart';
 
+// @TODO доработайте widget при необходимости
+
 class TherapistListItem extends StatelessWidget {
   const TherapistListItem({required this.therapist, this.discount, super.key});
 

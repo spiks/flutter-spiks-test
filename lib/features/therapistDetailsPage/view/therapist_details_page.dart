@@ -1,9 +1,7 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
-/**
- * Сраница подробной карточки терапевта
- * @TODO реализовать
-*/
+/// Сраница подробной карточки терапевта
+/// @TODO реализовать
 class TherapistDetailsPage extends StatelessWidget {
 
   const TherapistDetailsPage({ this.therapistId, super.key });
